@@ -1,6 +1,9 @@
 # Node modules
 node_modules/
 
+# Client-side node_modules
+/client/node_modules/
+
 # Environment files
 .env
 
