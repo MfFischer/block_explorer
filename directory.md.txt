@@ -1,0 +1,67 @@
+ArbGenie/
+│
+├── client/                                # Frontend application
+│   ├── public/                            # Public assets like index.html, logos, etc.
+│   │   ├── index.html                     # Main HTML file for the React app
+│   │   └── favicon.ico                    # App favicon
+│   ├── src/                               # React source files
+│   │   ├── components/                    # Reusable UI components
+│   │   │   ├── BlockForm.js               # Form for user to enter block number
+│   │   │   ├── BlockDetails.js            # Component to display block details
+│   │   │   ├── GasAnalytics.js            # Component for visualizing gas usage and analytics
+│   │   │   ├── TransactionList.js         # Component to display transaction details in a block
+│   │   ├── pages/                         # Page components representing different views
+│   │   │   ├── Dashboard.js               # Main dashboard page displaying block and gas analysis
+│   │   │   └── Home.js                    # Home page for introductory content and navigation
+│   │   ├── services/                      # Services for API calls to backend
+│   │   │   ├── api.js                     # API utility functions to interact with the backend
+│   │   ├── utils/                         # Utility functions for the frontend
+│   │   │   ├── format.js                  # Helper functions to format data (e.g., gas prices)
+│   │   ├── styles/                        # CSS/SCSS styles
+│   │   │   ├── Dashboard.scss             # Styles specific to the Dashboard component
+│   │   │   ├── BlockDetails.scss          # Styles for BlockDetails component
+│   │   │   ├── common.scss                # Common styles and variables for the application
+│   │   │   ├── variables.scss             # SCSS variables like colors, fonts, etc.
+│   │   │   └── global.css                 # Global styles applied to the entire app
+│   │   ├── App.js                         # Main React application file
+│   │   ├── index.js                       # Entry point for the React app
+│   │   └── setupTests.js                  # Setup for testing the frontend
+│   ├── .env                               # Environment variables for the frontend (if needed)
+│   ├── package.json                       # Frontend dependencies and scripts
+│   └── README.md                          # Frontend-specific documentation
+│
+├── server/                                # Backend application
+│   ├── src/                               # Source files for the backend
+│   │   ├── config/                        # Configuration files and environment variables
+│   │   │   ├── db.js                      # Database connection configuration (if using a DB)
+│   │   │   └── config.js                  # General configuration settings
+│   │   ├── controllers/                   # Controllers for handling requests and responses
+│   │   │   ├── blockController.js         # Logic to handle block data and gas analysis
+│   │   ├── middleware/                    # Express middleware (e.g., authentication, logging)
+│   │   ├── models/                        # Database models (optional)
+│   │   │   ├── Block.js                   # Model to store block data (if needed)
+│   │   ├── routes/                        # API routes for backend endpoints
+│   │   │   ├── blockRoutes.js             # Routes for block data and gas analysis
+│   │   ├── services/                      # Business logic and interaction with blockchain
+│   │   │   ├── blockService.js            # Service to fetch and process blockchain data
+│   │   ├── utils/                         # Utility functions for the backend
+│   │   │   └── web3Utils.js               # Helper functions for interacting with Ethereum
+│   │   └── app.js                         # Main Express application setup
+│   ├── tests/                             # Tests for the backend services and controllers
+│   │   ├── blockController.test.js        # Tests for block controller logic
+│   ├── .env                               # Environment variables for the backend
+│   ├── package.json                       # Backend dependencies and scripts
+│   └── README.md                          # Backend-specific documentation
+│
+├── contracts/                             # Smart contracts directory (if needed for other purposes)
+│   ├── README.md                          # Explain that no contracts are currently in use
+│
+├── abis/                                  # Centralized ABIs storage (optional if no contracts are used)
+│   ├── README.md                          # Instructions for adding ABIs if needed in the future
+│
+├── scripts/                               # Deployment scripts and utilities (optional)
+│   ├── README.md                          # Describe purpose of each script
+│
+├── .gitignore                             # Specifies intentionally untracked files to ignore
+├── package.json                           # Root-level configuration, shared dependencies, and scripts
+└── README.md                              # Main project README with global project information
