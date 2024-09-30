@@ -1,0 +1,53 @@
+// src/App.scss
+.app {
+  margin: 20px;
+  padding: 20px;
+  background-color: #1F2833; // Consistent background color
+  color: #C5C6C7; // Text color to match block details
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif; // Consistent font
+}
+
+h1, h2 {
+  color: #66FCF1; // Consistent heading color
+}
+
+.error {
+  color: red;
+  margin: 20px 0;
+}
+
+.block-data {
+  margin-top: 20px;
+  text-align: left;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #45A29E; // Border color to match theme
+  border-radius: 4px;
+  background-color: #0B0C10; // Dark background for input
+  color: #C5C6C7; // Light text color
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #66FCF1; // Match button color with theme
+  color: #1F2833; // Dark text color
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; // Smooth transition
+}
+
+button:hover {
+  background-color: #45A29E; // Hover effect consistent with theme
+}

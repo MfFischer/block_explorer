@@ -1,0 +1,19 @@
+// src/styles/Home.scss
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  
+    h1 {
+      font-size: 2.5rem;
+      color: #66FCF1;
+    }
+  
+    .btn {
+      margin-top: 20px;
+    }
+  }
+  

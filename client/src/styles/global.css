@@ -1,0 +1,18 @@
+/* src/styles/global.css */
+body, html, #root {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0B0C10; /* Dark background color */
+    color: #C5C6C7; /* Light text color */
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  

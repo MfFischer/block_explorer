@@ -1,0 +1,29 @@
+// src/styles/GasAnalytics.scss
+.gas-analytics {
+  margin: 20px;
+  padding: 20px;
+  background-color: #1F2833;
+  color: #C5C6C7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  h2, h3 {
+    margin-bottom: 15px;
+    color: #66FCF1;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 10px;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+
+  .gas-chart {
+    margin-top: 20px;
+  }
+}

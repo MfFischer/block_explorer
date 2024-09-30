@@ -1,0 +1,24 @@
+// src/styles/BlockForm.scss
+.block-form {
+    margin: 20px 0;
+    input {
+      width: 200px;
+      padding: 10px;
+      margin-right: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #66FCF1;
+      border: none;
+      cursor: pointer;
+      &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
+    }
+    .error {
+      color: red;
+      margin-top: 10px;
+    }
+  }
+  
