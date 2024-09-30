@@ -29,5 +29,12 @@ Users can input Ethereum block numbers to fetch and view detailed data, includin
 ### Development Environment
 - **Hardhat**: Ethereum development environment for local testing and smart contract interactions.
 
+### Dashboard View
+![Dashboard](./screenshots/dashboard.png)
+
+### Gas Analytics
+![Gas Analytics](./screenshots/gas-analytics.png)
+
+
 
 
